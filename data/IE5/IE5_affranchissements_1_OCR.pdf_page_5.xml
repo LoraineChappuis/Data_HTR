@@ -25,6 +25,33 @@
                   WIDTH="2038"
                   HEIGHT="3508">
         
+        <TextBlock HPOS="1857"
+                   VPOS="4"
+                   WIDTH="125"
+                   HEIGHT="82"
+                   ID="eSc_textblock_f94d1dad"
+                   TAGREFS="BT1814">
+          <Shape><Polygon POINTS="1857 4 1857 83 1982 86 1982 4"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_34cd1da6"
+                    TAGREFS="LT725"
+                    BASELINE="1872 75 1876 75 1908 75 1969 72" 
+                    HPOS="1868"
+                    VPOS="0"
+                    WIDTH="99"
+                    HEIGHT="84">
+            <Shape><Polygon POINTS="1956 2 1926 2 1897 2 1871 2 1868 2 1871 73 1871 84 1967 78 1967 70 1964 2 1959 0 1956 2"/></Shape>
+	    <String CONTENT="7"
+                    HPOS="1868"
+                    VPOS="0"
+                    WIDTH="99"
+                    HEIGHT="84"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
         <TextBlock HPOS="472"
                    VPOS="93"
                    WIDTH="1566"
@@ -642,33 +669,6 @@
                     VPOS="3239"
                     WIDTH="992"
                     HEIGHT="157"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="1857"
-                   VPOS="4"
-                   WIDTH="125"
-                   HEIGHT="82"
-                   ID="eSc_textblock_f94d1dad"
-                   TAGREFS="BT1814">
-          <Shape><Polygon POINTS="1857 4 1857 83 1982 86 1982 4"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_34cd1da6"
-                    TAGREFS="LT725"
-                    BASELINE="1872 75 1876 75 1908 75 1969 72" 
-                    HPOS="1868"
-                    VPOS="0"
-                    WIDTH="99"
-                    HEIGHT="84">
-            <Shape><Polygon POINTS="1956 2 1926 2 1897 2 1871 2 1868 2 1871 73 1871 84 1967 78 1967 70 1964 2 1959 0 1956 2"/></Shape>
-	    <String CONTENT=".."
-                    HPOS="1868"
-                    VPOS="0"
-                    WIDTH="99"
-                    HEIGHT="84"></String>
           </TextLine>
 
           
