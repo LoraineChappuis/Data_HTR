@@ -1,0 +1,37 @@
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+title: archives île de France
+url: https://github.com/LoraineChappuis/Data_HTR
+authors:
+  - name: Loraine
+    surname: Chappuis
+    roles:
+      - transcriber
+      - project-manager
+  - name: Simon
+    surname: Gabay
+    roles:
+      - quality-control
+      - support
+institutions: []
+description: documents des NAM
+language:
+  - fra
+  - eng
+production-software: eScriptorium + Kraken
+automatically-aligned: false
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1750'
+  notAfter: '1834'
+hands:
+  count: '1'
+  precision: exact
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+  - metric: pages
+    count: 10
