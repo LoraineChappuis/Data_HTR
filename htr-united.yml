@@ -1,37 +1,131 @@
-schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: archives île de France
-url: https://github.com/LoraineChappuis/Data_HTR
 authors:
-  - name: Loraine
-    surname: Chappuis
-    roles:
-      - transcriber
-      - project-manager
-  - name: Simon
-    surname: Gabay
-    roles:
-      - quality-control
-      - support
-institutions: []
-description: documents des NAM
-language:
-  - fra
-  - eng
-production-software: eScriptorium + Kraken
+- name: Loraine
+  roles:
+  - transcriber
+  - project-manager
+  surname: Chappuis
+- name: Simon
+  roles:
+  - quality-control
+  - support
+  surname: Gabay
 automatically-aligned: false
-script:
-  - iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1750'
-  notAfter: '1834'
+characters:
+  members:
+  - e
+  - a
+  - n
+  - r
+  - i
+  - s
+  - t
+  - o
+  - l
+  - u
+  - d
+  - c
+  - m
+  - ́
+  - p
+  - ','
+  - f
+  - v
+  - q
+  - g
+  - h
+  - '1'
+  - .
+  - "'"
+  - b
+  - S
+  - ̀
+  - x
+  - ̂
+  - '8'
+  - D
+  - M
+  - J
+  - y
+  - ᵉ
+  - P
+  - B
+  - I
+  - V
+  - '2'
+  - C
+  - A
+  - E
+  - j
+  - G
+  - ¬
+  - L
+  - '4'
+  - R
+  - ᵗ
+  - N
+  - T
+  - F
+  - ʳ
+  - '&'
+  - '9'
+  - '3'
+  - ᵃ
+  - ⁿ
+  - '6'
+  - U
+  - ;
+  - '5'
+  - H
+  - z
+  - /
+  - ̃
+  - ̈
+  - '7'
+  - ⁱ
+  - '0'
+  - )
+  - ':'
+  - O
+  - ˢ
+  - (
+  - °
+  - ^
+  - ᶜ
+  - ¢
+  - '-'
+  - ᵒ
+  - ̧
+  mode: NFD
+description: documents des NAM
+format: Alto-XML
 hands:
   count: '1'
   precision: exact
+institutions: []
+language:
+- fra
+- eng
 license:
   type: CC-BY
   version: 4.0
-format: Alto-XML
+production-software: eScriptorium + Kraken
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1834'
+  notBefore: '1750'
+title: archives île de France
+url: https://github.com/LoraineChappuis/Data_HTR
 volume:
-  - metric: pages
-    count: 10
+- count: 19373
+  metric: characters
+- count: 15
+  metric: files
+- count: 612
+  metric: lines
+- count: 10
+  metric: pages
+- count: 75
+  metric: regions
