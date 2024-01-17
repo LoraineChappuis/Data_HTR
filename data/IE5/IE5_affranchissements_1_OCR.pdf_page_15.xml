@@ -25,33 +25,6 @@
                   WIDTH="2104"
                   HEIGHT="3513">
         
-        <TextBlock HPOS="1834"
-                   VPOS="6"
-                   WIDTH="106"
-                   HEIGHT="80"
-                   ID="eSc_textblock_b5e6080a"
-                   TAGREFS="BT1814">
-          <Shape><Polygon POINTS="1834 6 1834 86 1940 86 1940 6"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_b87e7642"
-                    TAGREFS="LT725"
-                    BASELINE="1831 73 1919 81" 
-                    HPOS="1828"
-                    VPOS="5"
-                    WIDTH="94"
-                    HEIGHT="112">
-            <Shape><Polygon POINTS="1863 5 1834 14 1831 73 1828 84 1907 117 1919 81 1922 11 1893 8"/></Shape>
-	    <String CONTENT="18"
-                    HPOS="1828"
-                    VPOS="5"
-                    WIDTH="94"
-                    HEIGHT="112"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
         <TextBlock HPOS="393"
                    VPOS="68"
                    WIDTH="1637"
@@ -674,6 +647,60 @@
           
         </TextBlock>
         
+        <TextBlock HPOS="1834"
+                   VPOS="6"
+                   WIDTH="106"
+                   HEIGHT="80"
+                   ID="eSc_textblock_b5e6080a"
+                   TAGREFS="BT1814">
+          <Shape><Polygon POINTS="1834 6 1834 86 1940 86 1940 6"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_b87e7642"
+                    TAGREFS="LT725"
+                    BASELINE="1831 73 1919 81" 
+                    HPOS="1828"
+                    VPOS="5"
+                    WIDTH="94"
+                    HEIGHT="112">
+            <Shape><Polygon POINTS="1863 5 1834 14 1831 73 1828 84 1907 117 1919 81 1922 11 1893 8"/></Shape>
+	    <String CONTENT="18"
+                    HPOS="1828"
+                    VPOS="5"
+                    WIDTH="94"
+                    HEIGHT="112"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="897"
+                   VPOS="3326"
+                   WIDTH="128"
+                   HEIGHT="113"
+                   ID="eSc_textblock_b94d6abe"
+                   TAGREFS="BT1814">
+          <Shape><Polygon POINTS="897 3326 897 3439 1025 3439 1025 3326"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_502abe73"
+                    TAGREFS="LT725"
+                    BASELINE="926 3400 1006 3396" 
+                    HPOS="920"
+                    VPOS="3322"
+                    WIDTH="85"
+                    HEIGHT="103">
+            <Shape><Polygon POINTS="931 3425 952 3410 996 3425 1005 3395 996 3322 920 3325 925 3398"/></Shape>
+	    <String CONTENT="17"
+                    HPOS="920"
+                    VPOS="3322"
+                    WIDTH="85"
+                    HEIGHT="103"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
         <TextBlock HPOS="1775"
                    VPOS="3235"
                    WIDTH="236"
@@ -701,38 +728,7 @@
           
         </TextBlock>
         
-        <TextBlock HPOS="921"
-                   VPOS="3336"
-                   WIDTH="91"
-                   HEIGHT="78"
-                   ID="eSc_textblock_58e899e8"
-                   TAGREFS="BT1814">
-          <Shape><Polygon POINTS="926 3336 921 3414 1012 3406 1009 3336"/></Shape>
-          
-        </TextBlock>
-        
 
-        
-        <TextBlock ID="eSc_dummyblock_">
-          
-          
-          <TextLine ID="eSc_line_502abe73"
-                    TAGREFS="LT725"
-                    BASELINE="926 3400 1006 3396" 
-                    HPOS="920"
-                    VPOS="3322"
-                    WIDTH="85"
-                    HEIGHT="103">
-            <Shape><Polygon POINTS="925 3398 931 3425 952 3410 996 3425 1005 3395 996 3322 920 3325 925 3398"/></Shape>
-	    <String CONTENT="17"
-                    HPOS="920"
-                    VPOS="3322"
-                    WIDTH="85"
-                    HEIGHT="103"></String>
-          </TextLine>
-
-          
-        </TextBlock>
         
       </PrintSpace>
     </Page>
