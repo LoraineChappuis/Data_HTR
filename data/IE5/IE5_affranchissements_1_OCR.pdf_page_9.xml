@@ -598,23 +598,6 @@
 
           
           
-          <TextLine ID="eSc_line_d1f349f3"
-                    
-                    BASELINE="1764 3080 1853 3021" 
-                    HPOS="1736"
-                    VPOS="2984"
-                    WIDTH="117"
-                    HEIGHT="100">
-            <Shape><Polygon POINTS="1763 3078 1769 3084 1853 3028 1850 3019 1824 2984 1736 3037 1763 3078"/></Shape>
-	    <String CONTENT="et d&#39;Irlande."
-                    HPOS="1736"
-                    VPOS="2984"
-                    WIDTH="117"
-                    HEIGHT="100"></String>
-          </TextLine>
-
-          
-          
           <TextLine ID="eSc_line_136ec48c"
                     TAGREFS="LT726"
                     BASELINE="1011 3084 1599 3066" 
