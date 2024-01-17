@@ -35,8 +35,8 @@ characters:
   - h
   - '1'
   - .
-  - "'"
   - b
+  - "'"
   - S
   - ̀
   - x
@@ -119,11 +119,11 @@ time:
 title: archives île de France
 url: https://github.com/LoraineChappuis/Data_HTR
 volume:
-- count: 19373
+- count: 19361
   metric: characters
 - count: 15
   metric: files
-- count: 612
+- count: 611
   metric: lines
 - count: 10
   metric: pages
