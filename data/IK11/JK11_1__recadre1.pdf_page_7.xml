@@ -25,57 +25,13 @@
                   WIDTH="2146"
                   HEIGHT="3508">
         
-        <TextBlock HPOS="1666"
-                   VPOS="10"
-                   WIDTH="427"
-                   HEIGHT="98"
-                   ID="eSc_textblock_b3be3bf8"
-                   TAGREFS="BT1933">
-          <Shape><Polygon POINTS="1666 10 1666 108 2093 83 2093 10"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_a606a321"
-                    TAGREFS="LT777"
-                    BASELINE="1675 72 1760 72 2073 72" 
-                    HPOS="1672"
-                    VPOS="5"
-                    WIDTH="400"
-                    HEIGHT="120">
-            <Shape><Polygon POINTS="1672 70 1672 108 1698 122 1701 122 1704 125 1789 125 1818 125 1847 125 1885 125 1885 122 1888 122 1891 122 1915 102 1923 96 2069 99 2072 70 2069 11 1897 23 1868 8 1868 5 1865 5 1862 5 1859 5 1856 5 1853 5 1853 8 1836 26 1765 26 1672 5 1672 70"/></Shape>
-	    <String CONTENT="Cinquieme feuillet"
-                    HPOS="1672"
-                    VPOS="5"
-                    WIDTH="400"
-                    HEIGHT="120"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
         <TextBlock HPOS="414"
                    VPOS="6"
-                   WIDTH="1732"
+                   WIDTH="1728"
                    HEIGHT="3268"
                    ID="eSc_textblock_6111585f"
                    TAGREFS="BT1930">
-          <Shape><Polygon POINTS="414 6 418 3246 2142 3274 2133 378 2146 123 1662 137 1595 7"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_0bca2181"
-                    
-                    BASELINE="1788 129 1946 136" 
-                    HPOS="1769"
-                    VPOS="93"
-                    WIDTH="175"
-                    HEIGHT="50">
-            <Shape><Polygon POINTS="1769 113 1941 143 1944 134 1941 93 1786 93 1786 128"/></Shape>
-	    <String CONTENT=""
-                    HPOS="1769"
-                    VPOS="93"
-                    WIDTH="175"
-                    HEIGHT="50"></String>
-          </TextLine>
-
+          <Shape><Polygon POINTS="414 6 418 3246 2142 3274 2133 378 2142 148 1690 148 1595 7"/></Shape>
           
           
           <TextLine ID="eSc_line_e07d466b"
@@ -844,13 +800,40 @@
           
         </TextBlock>
         
+        <TextBlock HPOS="1666"
+                   VPOS="10"
+                   WIDTH="427"
+                   HEIGHT="87"
+                   ID="eSc_textblock_b3be3bf8"
+                   TAGREFS="BT1933">
+          <Shape><Polygon POINTS="1666 10 1670 97 2093 83 2093 10"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_a606a321"
+                    TAGREFS="LT777"
+                    BASELINE="1675 72 1760 72 2073 72" 
+                    HPOS="1672"
+                    VPOS="5"
+                    WIDTH="400"
+                    HEIGHT="120">
+            <Shape><Polygon POINTS="1672 70 1672 108 1698 122 1701 122 1704 125 1789 125 1818 125 1847 125 1885 125 1885 122 1888 122 1891 122 1915 102 1923 96 2069 99 2072 70 2069 11 1897 23 1868 8 1868 5 1865 5 1862 5 1859 5 1856 5 1853 5 1853 8 1836 26 1765 26 1672 5 1672 70"/></Shape>
+	    <String CONTENT="Cinquieme feuillet"
+                    HPOS="1672"
+                    VPOS="5"
+                    WIDTH="400"
+                    HEIGHT="120"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
         <TextBlock HPOS="333"
                    VPOS="3291"
-                   WIDTH="137"
+                   WIDTH="141"
                    HEIGHT="134"
                    ID="eSc_textblock_adc26392"
                    TAGREFS="BT1932">
-          <Shape><Polygon POINTS="333 3291 337 3425 470 3425 470 3295"/></Shape>
+          <Shape><Polygon POINTS="333 3291 337 3425 474 3425 470 3295"/></Shape>
           
           
           <TextLine ID="eSc_line_7d42ede4"
@@ -872,22 +855,12 @@
         </TextBlock>
         
         <TextBlock HPOS="1774"
-                   VPOS="73"
-                   WIDTH="179"
-                   HEIGHT="66"
+                   VPOS="98"
+                   WIDTH="186"
+                   HEIGHT="41"
                    ID="eSc_textblock_b0b10ac9"
                    TAGREFS="BT1935">
-          <Shape><Polygon POINTS="1953 139 1953 73 1774 73 1774 139"/></Shape>
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="354"
-                   VPOS="3295"
-                   WIDTH="116"
-                   HEIGHT="130"
-                   ID="eSc_textblock_2eb1d42a"
-                   >
-          <Shape><Polygon POINTS="354 3295 354 3425 470 3425 470 3295"/></Shape>
+          <Shape><Polygon POINTS="1953 139 1960 98 1785 98 1774 139"/></Shape>
           
         </TextBlock>
         
