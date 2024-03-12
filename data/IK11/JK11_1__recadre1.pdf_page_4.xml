@@ -25,60 +25,6 @@
                   WIDTH="2218"
                   HEIGHT="2097">
         
-        <TextBlock HPOS="1628"
-                   VPOS="2"
-                   WIDTH="446"
-                   HEIGHT="93"
-                   ID="eSc_textblock_dda3ad3b"
-                   TAGREFS="BT1933">
-          <Shape><Polygon POINTS="1628 2 1630 95 2074 42 2074 2"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_b1f017e6"
-                    TAGREFS="LT777"
-                    BASELINE="1635 52 2074 29" 
-                    HPOS="1632"
-                    VPOS="1"
-                    WIDTH="444"
-                    HEIGHT="112">
-            <Shape><Polygon POINTS="2069 1 2051 1 2034 1 2016 1 1999 1 1982 1 1868 8 1863 6 1852 1 1842 1 1824 1 1807 1 1789 1 1772 1 1754 1 1737 1 1733 1 1732 1 1698 15 1695 17 1691 15 1674 10 1672 10 1670 10 1669 10 1649 13 1649 15 1632 22 1635 52 1639 108 1718 69 1805 64 1828 64 1868 103 1880 111 1880 113 1882 113 1884 113 1885 113 2076 96 2074 29 2069 1 2069 1"/></Shape>
-	    <String CONTENT="quatrieme feuillet"
-                    HPOS="1632"
-                    VPOS="1"
-                    WIDTH="444"
-                    HEIGHT="112"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
-        <TextBlock HPOS="1907"
-                   VPOS="42"
-                   WIDTH="209"
-                   HEIGHT="70"
-                   ID="eSc_textblock_dfcab48f"
-                   TAGREFS="BT1935">
-          <Shape><Polygon POINTS="1907 112 1907 42 2098 42 2116 112"/></Shape>
-          
-          
-          <TextLine ID="eSc_line_26090c2c"
-                    TAGREFS="LT777"
-                    BASELINE="1912 95 2105 93" 
-                    HPOS="1908"
-                    VPOS="54"
-                    WIDTH="196"
-                    HEIGHT="66">
-            <Shape><Polygon POINTS="1910 94 1910 120 1973 118 1975 118 1980 117 2015 101 2100 108 2104 92 2100 54 2057 54 2055 54 2053 54 2044 57 2018 69 1971 64 1934 59 1933 59 1931 59 1908 66 1910 94"/></Shape>
-	    <String CONTENT=""
-                    HPOS="1908"
-                    VPOS="54"
-                    WIDTH="196"
-                    HEIGHT="66"></String>
-          </TextLine>
-
-          
-        </TextBlock>
-        
         <TextBlock HPOS="413"
                    VPOS="95"
                    WIDTH="1789"
@@ -475,6 +421,60 @@
                     VPOS="1719"
                     WIDTH="1519"
                     HEIGHT="100"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1628"
+                   VPOS="2"
+                   WIDTH="446"
+                   HEIGHT="93"
+                   ID="eSc_textblock_dda3ad3b"
+                   TAGREFS="BT1933">
+          <Shape><Polygon POINTS="1628 2 1630 95 2074 42 2074 2"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_bdc568c9"
+                    TAGREFS="LT777"
+                    BASELINE="1637 51 2066 33" 
+                    HPOS="1632"
+                    VPOS="3"
+                    WIDTH="433"
+                    HEIGHT="96">
+            <Shape><Polygon POINTS="2051 3 2034 3 2016 3 1999 3 1982 3 1964 3 1947 3 1929 3 1912 3 1894 3 1882 3 1852 8 1845 10 1843 10 1835 3 1824 3 1807 3 1789 3 1632 17 1635 50 1639 99 1753 59 1810 59 1863 82 1864 82 1866 82 1868 82 1919 54 1957 85 1959 85 1961 85 1962 85 2065 80 2065 31 2062 3 2051 3"/></Shape>
+	    <String CONTENT="quatrieme feuillet"
+                    HPOS="1632"
+                    VPOS="3"
+                    WIDTH="433"
+                    HEIGHT="96"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="1907"
+                   VPOS="42"
+                   WIDTH="209"
+                   HEIGHT="70"
+                   ID="eSc_textblock_dfcab48f"
+                   TAGREFS="BT1935">
+          <Shape><Polygon POINTS="1907 112 1907 42 2098 42 2116 112"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_26090c2c"
+                    TAGREFS="LT777"
+                    BASELINE="1912 95 2105 93" 
+                    HPOS="1908"
+                    VPOS="54"
+                    WIDTH="196"
+                    HEIGHT="66">
+            <Shape><Polygon POINTS="1910 94 1910 120 1973 118 1975 118 1980 117 2015 101 2100 108 2104 92 2100 54 2057 54 2055 54 2053 54 2044 57 2018 69 1971 64 1934 59 1933 59 1931 59 1908 66 1910 94"/></Shape>
+	    <String CONTENT=""
+                    HPOS="1908"
+                    VPOS="54"
+                    WIDTH="196"
+                    HEIGHT="66"></String>
           </TextLine>
 
           
