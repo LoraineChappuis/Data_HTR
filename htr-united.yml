@@ -126,7 +126,7 @@ volume:
   metric: characters
 - count: 22
   metric: files
-- count: 893
+- count: 892
   metric: lines
 - count: 10
   metric: pages
