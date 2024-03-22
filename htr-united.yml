@@ -16,8 +16,8 @@ characters:
   - a
   - n
   - t
-  - r
   - i
+  - r
   - s
   - o
   - u
@@ -35,8 +35,8 @@ characters:
   - "'"
   - h
   - b
-  - S
   - .
+  - S
   - '1'
   - ̀
   - x
@@ -48,15 +48,15 @@ characters:
   - J
   - B
   - D
+  - P
   - E
   - '8'
-  - P
-  - V
   - R
+  - V
   - N
   - j
-  - A
   - ᵉ
+  - A
   - I
   - F
   - G
@@ -76,12 +76,12 @@ characters:
   - '6'
   - ̧
   - '5'
+  - H
   - ⁿ
   - U
-  - H
   - ;
-  - '7'
   - /
+  - '7'
   - '0'
   - ̃
   - O
@@ -89,11 +89,11 @@ characters:
   - )
   - °
   - ':'
+  - '['
+  - ']'
   - ˢ
   - (
   - ᶜ
-  - '['
-  - ']'
   - ¢
   - '-'
   - ᵒ
@@ -122,13 +122,13 @@ time:
 title: archives île de France
 url: https://github.com/LoraineChappuis/Data_HTR
 volume:
-- count: 32632
+- count: 32665
   metric: characters
 - count: 22
   metric: files
-- count: 890
+- count: 891
   metric: lines
 - count: 10
   metric: pages
-- count: 105
+- count: 106
   metric: regions
