@@ -14,8 +14,8 @@ characters:
   members:
   - e
   - a
-  - n
   - t
+  - n
   - i
   - r
   - s
@@ -25,75 +25,77 @@ characters:
   - d
   - m
   - c
-  - ́
   - p
+  - ́
   - f
-  - ','
   - q
   - v
   - g
-  - "'"
-  - h
-  - b
-  - .
   - S
+  - ','
+  - b
+  - C
+  - h
+  - "'"
+  - L
+  - x
+  - .
   - '1'
   - ̀
-  - x
-  - C
-  - ̂
-  - y
-  - M
-  - L
   - J
-  - B
-  - D
+  - y
   - P
-  - E
-  - '8'
-  - R
+  - M
+  - D
   - V
+  - B
+  - ̂
+  - E
   - N
-  - j
-  - ᵉ
-  - A
-  - I
-  - F
-  - G
-  - '2'
   - T
-  - ¬
-  - '4'
-  - ᵗ
+  - R
+  - '8'
+  - F
+  - A
+  - j
+  - '2'
+  - G
   - z
-  - '9'
-  - ʳ
-  - ̈
-  - '&'
-  - '3'
-  - ᵃ
+  - I
   - ^
-  - '6'
-  - ̧
-  - '5'
-  - H
-  - ⁿ
-  - U
-  - ;
-  - /
+  - '4'
+  - ᵉ
+  - ¬
+  - '9'
+  - ᵗ
+  - '3'
+  - ̈
+  - ʳ
   - '7'
+  - '&'
+  - '5'
+  - '6'
+  - ᵃ
+  - H
+  - ̧
+  - ⁿ
+  - ;
+  - U
   - '0'
-  - ̃
-  - O
-  - ⁱ
-  - )
-  - °
-  - ':'
+  - /
   - '['
   - ']'
+  - ̃
+  - O
+  - °
+  - ':'
+  - ⁱ
+  - )
+  - Q
   - ˢ
   - (
   - ᶜ
+  - Z
   - ¢
   - '-'
   - ᵒ
@@ -122,13 +124,13 @@ time:
 title: archives île de France
 url: https://github.com/LoraineChappuis/Data_HTR
 volume:
-- count: 32665
+- count: 50905
   metric: characters
-- count: 22
+- count: 37
   metric: files
-- count: 891
+- count: 1299
   metric: lines
 - count: 10
   metric: pages
-- count: 104
+- count: 165
   metric: regions
