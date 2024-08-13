@@ -19,13 +19,13 @@ characters:
   - i
   - r
   - s
-  - o
   - u
+  - o
   - l
   - d
   - m
-  - c
   - p
+  - c
   - ́
   - f
   - q
@@ -34,64 +34,64 @@ characters:
   - S
   - ','
   - b
-  - C
   - h
+  - C
   - "'"
   - L
   - x
   - .
   - '1'
-  - ̀
   - J
   - y
+  - ̀
   - P
   - M
   - D
   - V
+  - E
   - B
   - ̂
-  - E
-  - N
   - T
+  - N
   - R
-  - '8'
   - F
-  - A
+  - '8'
   - j
+  - A
+  - z
   - '2'
   - G
-  - z
-  - I
   - ^
+  - I
   - '4'
   - ᵉ
   - ¬
   - '9'
   - ᵗ
-  - '3'
   - ̈
-  - ʳ
+  - '3'
   - '7'
+  - ʳ
   - '&'
+  - ;
   - '5'
+  - '['
+  - ']'
   - '6'
   - ᵃ
   - H
   - ̧
   - ⁿ
-  - ;
   - U
-  - '0'
   - /
-  - '['
-  - ']'
+  - '0'
   - ̃
   - O
+  - Q
   - °
   - ':'
   - ⁱ
   - )
-  - Q
   - ˢ
   - (
   - ᶜ
@@ -100,6 +100,7 @@ characters:
   - '-'
   - ᵒ
   - w
+  - $
   mode: NFD
 description: documents des NAM
 format: Alto-XML
@@ -124,13 +125,13 @@ time:
 title: archives île de France
 url: https://github.com/LoraineChappuis/Data_HTR
 volume:
-- count: 50905
+- count: 55664
   metric: characters
-- count: 37
+- count: 43
   metric: files
-- count: 1299
+- count: 1423
   metric: lines
 - count: 10
   metric: pages
-- count: 164
+- count: 181
   metric: regions
