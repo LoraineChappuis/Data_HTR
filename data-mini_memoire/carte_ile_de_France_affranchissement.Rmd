@@ -1,0 +1,161 @@
+---
+title: "Les affranchissements par testaments dans l'île de France (île Maurice-1794-1798)"
+author: "Loraine Chappuis"
+date: "15.08.2024"
+output:
+  html_document:
+    highlight: pygments
+    toc: true
+    toc_float:
+      toc_collapsed: true
+    theme: united
+---
+
+<a style="float:right; width: 20%;" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a>
+
+
+```{r setup, include=FALSE}
+if(!require("knitr")){
+  install.packages("knitr")
+  library(knitr)
+}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 0. Préparatifs
+
+```{r}
+setwd("/Users/chappuil/Library/CloudStorage/OneDrive-unige.ch/humanités numériques/32M7129-master/Cours_11")
+```
+
+```{r, echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+if(!require("leaflet")){
+  install.packages("leaflet")
+  library(leaflet)
+}
+if(!require("sp")){
+  install.packages("sp")
+  library(sp)
+}
+if(!require("sf")){
+  install.packages("sf")
+  library(sf)
+}
+if(!require("RColorBrewer")){
+  install.packages("RColorBrewer")
+  library(RColorBrewer)
+}
+if(!require("htmlwidgets")){
+  install.packages("htmlwidgets")
+  library(htmlwidgets)
+}
+if(!require("htmltools")){
+  install.packages("htmltools")
+  library(htmltools)
+}
+if(!require("leaflet.extras")){
+  install.packages("leaflet.extras")
+  library(leaflet.extras)
+}
+if(!require("geojsonio")){
+  install.packages("geojsonio")
+  library(geojsonio)
+}
+if(!require("rjson")){
+  install.packages("rjson")
+  library(rjson)
+}
+if(!require("leaftime")){
+  install.packages("leaftime")
+  library(leaftime)
+}
+if(!require("magrittr")){
+  install.packages("magrittr")
+  library(magrittr)
+}
+```
+# 1. Une première carte
+
+Créer sa carte
+
+```{r}
+map <- leaflet() %>% addProviderTiles(providers$Esri.WorldTopoMap)
+#J'affiche la carte
+map
+```
+
+#Cartographie des affranchissements#
+#Dataframe des lieux d'affranchissements#
+
+```{r}
+#Je crée un data frame contenant les longitudes et latitudes des lieux (île de France)
+capitals <- data.frame(latitudes = c(-20.10306,-20.10389, -20.16194, -20.18972, -20.28611, -20.3, -20.36028, -20.37444, -20.46667),
+                     longitudes = c(57.68472, 57.57028, 57.49889, 57.71444, 57.77583, 57.48333, 57.36611, 57.71899, 57.5),
+                     nombre = c(4, 11, 46, 2, 5, 2, 3, 3, 3),
+                     labels = c("Rivère du Rempart", "Pamplemousses", "Port Louis", "Flacq", "Grande Rivière", "Plaine Wilhems", "Rivière Noire", "Port Bourbon", "Canton de la Savane"))
+capitals
+```
+
+```{r}
+#Je place mon dataframe comme contenu de la fonction leaflet()
+map <- leaflet(capitals) %>%
+ addProviderTiles(providers$Esri.WorldTopoMap) %>%
+  setView(lng = 5, lat = 50, zoom = 5)  %>%
+  #Je récupère le contenu des colonnes avec le tilde ~ suivi du nom de la colonne
+  addMarkers(lng = ~longitudes, lat = ~latitudes, popup = ~labels)
+map
+```
+
+#je rajoute des informations
+```{r}
+#Je place mon dataframe comme contenu de la fonction leaflet()
+map <- leaflet(capitals) %>%
+  addProviderTiles(providers$Esri.WorldTopoMap) %>%
+  setView(lng = 5, lat = 50, zoom = 5)  %>%
+  #Je remplace la fonction addMarkers() par la fonction addCircles()
+  addCircles(lng = ~longitudes,
+             lat = ~latitudes,
+             #Je concatène des informations comme contenu de chaque cercle
+             popup = ~paste(labels, ":", nombre),
+             #taille du cercle (population multiplié par 500 pour rendre le cercle visible)
+             radius = ~sqrt(nombre) * 500,
+             #couleur du cercle
+             color = "slateblue",
+             #opacité du cercle
+             fillOpacity = 0.5
+            )
+map
+```
+
+
+Je modifie la couleur du cercle en fonction de sa taille avec la fonction `colorNumeric()`
+
+```{r}
+#Je crée un dégradé entre le jaune et le rouge foncé, le minimum et le maximum étant défini par le contenu de la colonne `population` de mon dataframe `capitals`
+colors_function <- colorNumeric(c("darkorange", "darkred"), capitals$nombre)
+
+map <- leaflet(capitals) %>%
+  addProviderTiles(providers$Esri.WorldTopoMap) %>%
+  setView(lng = 5, lat = 50, zoom = 5)  %>%
+  #Je remplace la fonction addMarkers() par la fonction addCircles()
+  addCircles(lng = ~longitudes,
+             lat = ~latitudes,
+             #Je concatène des informations comme contenu de chaque cercle
+             popup = ~paste(labels, ":", nombre),
+             #taille du cercle (population multiplié par 5000 pour rendre le cercle visible)
+             radius = ~sqrt(nombre) * 750,
+             #couleur du cercle, fonction de la population
+             color = ~colors_function(nombre),
+             #opacité du cercle
+             fillOpacity = 0.5
+            )
+map
+```
+
+
+
+
+
+
+
+```
