@@ -16,6 +16,6 @@ Registres d'affranchissements, registres d'insinuations (actes notariés enregis
 </table>
 
 ## License
-  type : <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+  type : <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY</a>
   version : 4.0
 	
